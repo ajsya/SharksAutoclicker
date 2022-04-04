@@ -62,7 +62,7 @@ def on_press(key):
             click_thread.stop_clicking()
         else:
             click_thread.start_clicking()
-            print(tint("[darkgray]Now clicking at: ~{0} cps[/]".format(float(sys.argv[1]))))
+            print(tint("[darkgray]Now clicking at: ~{0} cps[/]".format(1/delay)))
             print(tint("[red]Press 'b' to stop clicking![/]"))
               
     # here exit method is called and when 
